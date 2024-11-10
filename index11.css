@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    background-image: url('https://www.w3schools.com/w3images/parallax1.jpg');
+    height: 300px; 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .opaity-min {
+    opacity: 0.75;
+  }
+  .navbar {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; 
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  .header-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+  }
+.about_content {
+text-align: center;
+}
+.about_me-photo {
+    position: relative;
+    left: 300px;
+    border-radius: 30px;
+}
+.about_me {
+    display: flex;
+}
+.about_me-text {
+    position: relative;
+    left: 200px;
+    top: 150px;
+    color: #777;
+}
+.about_me-photo p {
+text-align: center;
+color: #777;
+}
